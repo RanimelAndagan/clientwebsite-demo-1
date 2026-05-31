@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The North Cafe — Slow Coffee &amp; Honest Food in North Caloocan</title>
+  <meta name="description" content="The North Cafe is a premium coffee and brunch spot in North Caloocan. Slow coffee, made-from-scratch food, and a warm modern space — a taste of the true north." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- grain + vignette overlays -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============================= NAV ============================= -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="The North Cafe — home">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" class="brand__ring" />
+          <circle cx="24" cy="24" r="17" class="brand__inner" />
+          <path d="M24 9 L30 30 L24 25 L18 30 Z" class="brand__needle" />
+          <text x="24" y="7" class="brand__n" text-anchor="middle">N</text>
+        </svg>
+        <span class="brand__word">
+          <span class="brand__word-top">The North</span>
+          <span class="brand__word-bot">Cafe</span>
+        </span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#menu">Menu</a>
+        <a href="#ambiance">The Space</a>
+        <a href="#notes">Love Notes</a>
+        <a href="#visit">Visit</a>
+        <a href="https://food.grab.com/ph/en/restaurant/the-north-cafe-saranay-delivery/2-C6MXTY6CV32EAT?sourceID=20240724_101848_1CACB1A3A3EE49E6A4A7EF2B592070D5_MEXMPS" target="_blank" rel="noopener" class="nav__cta nav__cta--grab">
+          <span class="grab-pulse" aria-hidden="true"></span>
+          <span>Order</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================= HERO ============================= -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero__bg" aria-hidden="true">
+        <img class="hero__photo" src="images/hero bg.jpg" alt="" loading="eager" decoding="async" />
+        <div class="hero__photo-veil"></div>
+        <div class="hero__glow hero__glow--a"></div>
+        <div class="hero__glow hero__glow--b"></div>
+        <div class="hero__steam">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title hero__title--helvetica" id="heroTitle">
+            <span class="line" data-reveal>it's always</span>
+            <span class="line" data-reveal>a good idea to have</span>
+            <span class="line line--accent" data-reveal>coffee.</span>
+          </h1>
+
+          <div class="hero__actions" data-reveal>
+            <a href="https://food.grab.com/ph/en/restaurant/the-north-cafe-saranay-delivery/2-C6MXTY6CV32EAT?sourceID=20240724_101848_1CACB1A3A3EE49E6A4A7EF2B592070D5_MEXMPS" target="_blank" rel="noopener" class="btn btn--grab">
+              <span class="grab-pulse" aria-hidden="true"></span>
+              <span>Order on <strong>GrabFood</strong></span>
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#menu" class="btn btn--ghost">
+              <span>See the menu</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <p class="hero__delivery-note" data-reveal>
+            <span class="grab-pulse grab-pulse--sm" aria-hidden="true"></span>
+            Now delivering across North Caloocan &middot; <strong>Open on GrabFood</strong>
+          </p>
+
+          <dl class="hero__meta" data-reveal>
+            <div>
+              <dt>Kitchen</dt>
+              <dd>Made daily, from scratch</dd>
+            </div>
+            <div>
+              <dt>Coffee</dt>
+              <dd>Signature iced &amp; hot</dd>
+            </div>
+            <div>
+              <dt>Room</dt>
+              <dd>Warm · modern · unhurried</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__art" aria-hidden="true" data-reveal>
+          <div class="seal">
+            <span class="seal__glow"></span>
+            <span class="seal__ring"></span>
+            <img class="seal__logo" src="images/north cafe logo.jpg" alt="The North Cafe logo" loading="eager" />
+          </div>
+          <span class="compass__caption">The North Café · Est. North Caloocan</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============================= MENU ============================= -->
+    <section class="menu" id="menu" aria-labelledby="menuTitle">
+      <div class="menu__intro">
+        <div class="section-no" data-reveal>No. 01 — The Menu</div>
+        <h2 class="section-title" id="menuTitle" data-reveal>
+          <em>Honest</em> food.<br>
+          Slow <span class="accent-under">coffee</span>.
+        </h2>
+        <p class="section-lede" data-reveal>
+          A short menu, done well. Every plate is made from scratch and every cup is pulled with care — the kind of food you come back for on a Tuesday.
+        </p>
+        <div class="menu__tabs" role="tablist" data-reveal>
+          <button class="chip chip--active" role="tab" data-filter="all">All</button>
+          <button class="chip" role="tab" data-filter="pasta">Pasta</button>
+          <button class="chip" role="tab" data-filter="sandwich">Sandwiches</button>
+          <button class="chip" role="tab" data-filter="sweets">Sweets</button>
+          <button class="chip" role="tab" data-filter="coffee">Coffee</button>
+        </div>
+      </div>
+
+      <div class="menu__grid">
+
+        <!-- ITEM 1 — Chicken Pesto (verified from price.jpg) -->
+        <article class="dish" data-category="pasta" data-reveal>
+          <div class="dish__media">
+            <img src="images/pesto pasta.jpg" alt="Chicken Pesto pasta topped with basil pesto-brushed bread" loading="lazy" />
+            <span class="dish__tag">House favourite</span>
+          </div>
+          <div class="dish__body">
+            <div class="dish__head">
+              <h3>Chicken Pesto</h3>
+              <span class="dish__price">₱245</span>
+            </div>
+            <p>Al dente pasta and tender chicken in a vibrant basil pesto — fresh basil, garlic, Parmesan, mushrooms. Served with garlic bread.</p>
+            <span class="dish__meta">Pasta · Signature</span>
+          </div>
+        </article>
+
+        <!-- ITEM 2 — Creamy Carbonara (verified from price.jpg) -->
+        <article class="dish" data-category="pasta" data-reveal>
+          <div class="dish__media">
+            <img src="images/OG Carbonara.jpg" alt="Creamy Carbonara served with toasted bread and iced house drink" loading="lazy" />
+            <span class="dish__tag dish__tag--alt">Comfort</span>
+          </div>
+          <div class="dish__body">
+            <div class="dish__head">
+              <h3>Creamy Carbonara</h3>
+              <span class="dish__price">₱245</span>
+            </div>
+            <p>Tender chicken ham, crispy beef bacon, savoury mushrooms in a luscious cream sauce. Served with a slice of fresh bread.</p>
+            <span class="dish__meta">Pasta · Classic</span>
+          </div>
+        </article>
+
+        <!-- ITEM 3 — Tuna Sandwich (visible in photos; price unconfirmed) -->
+        <article class="dish" data-category="sandwich" data-reveal>
+          <div class="dish__media">
+            <img src="images/tuna sandwhich.jpg" alt="Toasted tuna sandwich with tomato on whole-wheat bread" loading="lazy" />
+          </div>
+          <div class="dish__body">
+            <div class="dish__head">
+              <h3>Tuna Sandwich</h3>
+              <!-- VERIFY BEFORE LAUNCH: exact price -->
+              <span class="dish__price">₱ —</span>
+            </div>
+            <p>Toasted whole-wheat bread layered with house-made tuna, fresh herbs and tomato. Made to order.</p>
+            <span class="dish__meta">Sandwich · All day</span>
+          </div>
+        </article>
+
+        <!-- ITEM 4 — Oreo Cheesecake (visible in photos; price unconfirmed) -->
+        <article class="dish" data-category="sweets" data-reveal>
+          <div class="dish__media">
+            <img src="images/cake.jpg" alt="Oreo-topped cheesecake slice served on a brass plate" loading="lazy" />
+            <span class="dish__tag">Fresh bake</span>
+          </div>
+          <div class="dish__body">
+            <div class="dish__head">
+              <h3>Cookies &amp; Cream Cheesecake</h3>
+              <!-- VERIFY BEFORE LAUNCH: exact price -->
+              <span class="dish__price">₱ —</span>
+            </div>
+            <p>A soft cheesecake finished with crushed cookies and whipped cream. The sweet note at the end of a long afternoon.</p>
+            <span class="dish__meta">Sweets · Bakery</span>
+          </div>
+        </article>
+
+        <!-- ITEM 5 — Chocolate Chip Cookie & Iced Coffee (visible in photos) -->
+        <article class="dish" data-category="coffee" data-reveal>
+          <div class="dish__media">
+            <img src="images/cookie.jpg" alt="Iced coffee pair beside a chocolate chip cookie on a brass plate" loading="lazy" />
+            <span class="dish__tag dish__tag--alt">Pair</span>
+          </div>
+          <div class="dish__body">
+            <div class="dish__head">
+              <h3>Iced Signature &amp; Cookie</h3>
+              <!-- VERIFY BEFORE LAUNCH: exact price -->
+              <span class="dish__price">₱ —</span>
+            </div>
+            <p>Our iced house coffee beside a warm, chewy chocolate-chip cookie — an afternoon in one order.</p>
+            <span class="dish__meta">Coffee · Bakery</span>
+          </div>
+        </article>
+
+        <!-- ITEM 6 — Blueberry Cheesecake (visible in photos; price unconfirmed) -->
+        <article class="dish" data-category="sweets" data-reveal>
+          <div class="dish__media">
+            <img src="images/blueberry cheese cake.jpg" alt="Blueberry cheesecake slice on a brass plate beside a hot North Cafe cup" loading="lazy" />
+            <span class="dish__tag">Fresh bake</span>
+          </div>
+          <div class="dish__body">
+            <div class="dish__head">
+              <h3>Blueberry Cheesecake</h3>
+              <!-- VERIFY BEFORE LAUNCH: exact price -->
+              <span class="dish__price">₱ —</span>
+            </div>
+            <p>A soft, slow-set cheesecake crowned with a glossy house blueberry compote. Pairs quietly with our hot signature.</p>
+            <span class="dish__meta">Sweets · Bakery</span>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="menu__note" data-reveal>
+        Full menu &amp; pricing <span class="menu__note-line"></span>
+        <!-- VERIFY BEFORE LAUNCH: complete menu availability -->
+        <a href="https://www.facebook.com/thenorthcafeofficial" target="_blank" rel="noopener">see the latest on Facebook &rarr;</a>
+      </p>
+    </section>
+
+    <!-- ============================= AMBIANCE ============================= -->
+    <section class="ambiance" id="ambiance" aria-labelledby="ambianceTitle">
+      <div class="ambiance__intro">
+        <div class="section-no section-no--light" data-reveal>No. 02 — The Space</div>
+        <h2 class="section-title section-title--light" id="ambianceTitle" data-reveal>
+          Where north <br>meets <em>home.</em>
+        </h2>
+        <p class="section-lede section-lede--light" data-reveal>
+          Warm wood, quiet light, a compass on the wall. The kind of room that works for a morning alone, a long conversation, or a Tuesday that turned into something.
+        </p>
+
+        <ul class="ambiance__points" data-reveal>
+          <li>
+            <span class="ambiance__num">01</span>
+            <div>
+              <strong>Warm, layered light</strong>
+              <p>Edison pendants and daylight through the glass front — a room that reads well at any hour.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ambiance__num">02</span>
+            <div>
+              <strong>Made for staying</strong>
+              <p>Vertical wood slats, textured walls, and tables that don't rush you out the door.</p>
+            </div>
+          </li>
+          <li>
+            <span class="ambiance__num">03</span>
+            <div>
+              <strong>Small details</strong>
+              <p>Brass plates. Hand-plated pasta. A compass mark that glows from the back wall.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="ambiance__gallery" data-reveal>
+        <figure class="amb amb--a">
+          <img src="images/OG Carbonara.jpg" alt="Interior view — warm wood walls, pendant lights, and a carbonara on the table" loading="lazy" />
+          <figcaption>The floor</figcaption>
+        </figure>
+        <figure class="amb amb--b">
+          <img src="images/cookie.jpg" alt="Signature iced coffee and cookie on a brass plate" loading="lazy" />
+          <figcaption>The bar</figcaption>
+        </figure>
+        <figure class="amb amb--c">
+          <img src="images/cake.jpg" alt="Cheesecake and the illuminated North Cafe compass on the back wall" loading="lazy" />
+          <figcaption>The mark</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================= TAGLINE BAND ============================= -->
+    <section class="band" aria-hidden="true">
+      <div class="band__inner">
+        <span class="band__line band__line--a">A taste of the</span>
+        <span class="band__line band__line--b"><em>true</em> north.</span>
+        <span class="band__line band__line--a">A taste of the</span>
+        <span class="band__line band__line--b"><em>true</em> north.</span>
+      </div>
+    </section>
+
+    <!-- ============================= LOVE NOTES ============================= -->
+    <section class="notes" id="notes" aria-labelledby="notesTitle">
+      <div class="notes__head">
+        <div class="section-no" data-reveal>No. 03 — Love Notes</div>
+        <h2 class="section-title" id="notesTitle" data-reveal>
+          What people<br>write <em>home.</em>
+        </h2>
+        <p class="section-lede" data-reveal>
+          Guest notes from our corner of Caloocan. Share yours — tag
+          <a href="https://www.facebook.com/thenorthcafeofficial" target="_blank" rel="noopener">@thenorthcafeofficial</a>.
+        </p>
+      </div>
+
+      <div class="notes__grid">
+        <figure class="note note--a" data-reveal>
+          <div class="note__stars" aria-hidden="true">★★★★★</div>
+          <blockquote>
+            One of the best-tasting Iced Spanish Lattes I've tried. Perfect
+            for people na mahilig sa strong coffee with balanced sweetness.
+            Sobrang sarap din ng pastries. Personal fave: burnt basque
+            cheesecake &mdash; will love to come back soon! &hearts;
+          </blockquote>
+          <figcaption>
+            <span class="note__author">Vanessa Anne Davis</span>
+            <span class="note__source">Guest review</span>
+          </figcaption>
+        </figure>
+
+        <figure class="note note--b" data-reveal>
+          <div class="note__stars" aria-hidden="true">★★★★★</div>
+          <blockquote>
+            The North Caf&eacute; never disappoints! Great ambiance,
+            delicious food, and super friendly staff. Perfect place to
+            unwind and enjoy good coffee. Highly recommended!
+          </blockquote>
+          <figcaption>
+            <span class="note__author">Francis Raymond Azures</span>
+            <span class="note__source">Guest review</span>
+          </figcaption>
+        </figure>
+
+        <figure class="note note--c" data-reveal>
+          <div class="note__stars" aria-hidden="true">★★★★★</div>
+          <blockquote>
+            Great coffee!!! Will keep you awake til the next day.
+          </blockquote>
+          <figcaption>
+            <span class="note__author">Samanta P.</span>
+            <span class="note__source">Guest review</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================= VISIT ============================= -->
+    <section class="visit" id="visit" aria-labelledby="visitTitle">
+      <div class="visit__left">
+        <div class="section-no section-no--light" data-reveal>No. 04 — Find Us</div>
+        <h2 class="section-title section-title--light" id="visitTitle" data-reveal>
+          Find your <br><em>north.</em>
+        </h2>
+        <p class="section-lede section-lede--light" data-reveal>
+          We're in Caloocan. The compass on the door is easy to spot — follow the light in.
+        </p>
+
+        <ul class="visit__info" data-reveal>
+          <li>
+            <span class="visit__key">Where</span>
+            <span class="visit__val">
+              2nd Floor, E&amp;C Building<br>
+              Blk 24 Malapitan Rd<br>
+              Brgy 171, Saranay Homes Subd<br>
+              Caloocan City 1421, Metro Manila
+            </span>
+          </li>
+          <li>
+            <span class="visit__key">Hours</span>
+            <span class="visit__val">
+              Sun &ndash; Thu &middot; 3:00 PM &ndash; 12:00 AM<br>
+              Fri &ndash; Sat &middot; 3:00 PM &ndash; 2:00 AM
+            </span>
+          </li>
+          <li>
+            <span class="visit__key">Call</span>
+            <span class="visit__val">
+              <a href="tel:+639765319489">0976 531 9489</a>
+            </span>
+          </li>
+          <li>
+            <span class="visit__key">Write</span>
+            <span class="visit__val">
+              <a href="mailto:thenorthcafeofficial@gmail.com">thenorthcafeofficial@gmail.com</a>
+            </span>
+          </li>
+          <li>
+            <span class="visit__key">Message</span>
+            <span class="visit__val">
+              <a href="https://www.facebook.com/thenorthcafeofficial" target="_blank" rel="noopener">facebook.com/thenorthcafeofficial</a>
+            </span>
+          </li>
+          <li>
+            <span class="visit__key">Delivery</span>
+            <span class="visit__val">
+              <a href="https://food.grab.com/ph/en/restaurant/the-north-cafe-saranay-delivery/2-C6MXTY6CV32EAT?sourceID=20240724_101848_1CACB1A3A3EE49E6A4A7EF2B592070D5_MEXMPS" target="_blank" rel="noopener">Available on GrabFood</a>
+            </span>
+          </li>
+        </ul>
+
+        <div class="visit__actions" data-reveal>
+          <a href="https://food.grab.com/ph/en/restaurant/the-north-cafe-saranay-delivery/2-C6MXTY6CV32EAT?sourceID=20240724_101848_1CACB1A3A3EE49E6A4A7EF2B592070D5_MEXMPS" target="_blank" rel="noopener" class="btn btn--grab">
+            <span class="grab-pulse" aria-hidden="true"></span>
+            <span>Order on <strong>GrabFood</strong></span>
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://www.facebook.com/thenorthcafeofficial" target="_blank" rel="noopener" class="btn btn--ghost btn--ghost-light">Message on Facebook</a>
+        </div>
+      </div>
+
+      <div class="visit__right" data-reveal>
+        <div class="visit__map">
+          <iframe
+            class="visit__map-frame"
+            title="Map showing The North Cafe on Malapitan Rd, Caloocan"
+            src="https://maps.google.com/maps?q=2nd+Floor+E%26C+Building,+Blk+24+Malapitan+Rd,+Barangay+171,+Caloocan,+1421+Metro+Manila&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <div class="visit__map-chip">
+            <div class="visit__map-chip-top">
+              <span class="visit__map-chip-dot"></span>
+              <span>The North Café</span>
+            </div>
+            <span class="visit__map-chip-sub">Malapitan Rd · Caloocan City</span>
+            <a
+              class="visit__map-chip-link"
+              href="https://www.google.com/maps/dir/?api=1&destination=2nd+Floor+E%26C+Building,+Blk+24+Malapitan+Rd,+Barangay+171,+Caloocan,+1421+Metro+Manila"
+              target="_blank"
+              rel="noopener">
+              Get directions
+              <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= FINAL CTA ============================= -->
+    <section class="cta" aria-labelledby="ctaTitle">
+      <div class="cta__inner">
+        <div class="section-no section-no--amber" data-reveal>Before you go —</div>
+        <h2 class="cta__title" id="ctaTitle" data-reveal>
+          Come find <br>your <em>North.</em>
+        </h2>
+        <p class="cta__lede" data-reveal>
+          Slow mornings, long afternoons, and coffee that earns its place on your day. Can't make it in? We'll bring the North to you.
+        </p>
+        <div class="cta__actions" data-reveal>
+          <a href="https://food.grab.com/ph/en/restaurant/the-north-cafe-saranay-delivery/2-C6MXTY6CV32EAT?sourceID=20240724_101848_1CACB1A3A3EE49E6A4A7EF2B592070D5_MEXMPS" target="_blank" rel="noopener" class="btn btn--grab">
+            <span class="grab-pulse" aria-hidden="true"></span>
+            <span>Order on <strong>GrabFood</strong></span>
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#visit" class="btn btn--ghost">
+            <span>Plan a visit</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" class="brand__ring" />
+          <circle cx="24" cy="24" r="17" class="brand__inner" />
+          <path d="M24 9 L30 30 L24 25 L18 30 Z" class="brand__needle" />
+        </svg>
+        <div class="footer__wordmark">
+          <span class="footer__name">The North Cafe</span>
+          <span class="footer__tag">A taste of the true north</span>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <div>
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="#menu">Pasta</a></li>
+            <li><a href="#menu">Sandwiches</a></li>
+            <li><a href="#menu">Sweets</a></li>
+            <li><a href="#menu">Coffee</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>2nd Floor, E&amp;C Building</li>
+            <li>Blk 24 Malapitan Rd</li>
+            <li>Brgy 171, Caloocan City 1421</li>
+            <li>Sun&ndash;Thu &middot; 3PM&ndash;12AM</li>
+            <li>Fri&ndash;Sat &middot; 3PM&ndash;2AM</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Say hi</h4>
+          <ul>
+            <li><a href="tel:+639765319489">0976 531 9489</a></li>
+            <li><a href="mailto:thenorthcafeofficial@gmail.com">thenorthcafeofficial@gmail.com</a></li>
+            <li><a href="https://www.facebook.com/thenorthcafeofficial" target="_blank" rel="noopener">facebook.com/thenorthcafeofficial</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="footer__rule"></div>
+
+    <div class="footer__bottom">
+      <span>&copy; <span id="year">2026</span> The North Cafe &middot; All rights reserved.</span>
+      <span class="footer__coord">N · 14.65° &nbsp;·&nbsp; E · 120.97°</span>
+      <span class="footer__credit">Design concept — demo</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
