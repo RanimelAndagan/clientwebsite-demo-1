@@ -122,12 +122,7 @@ That's it. For the best experience (and live reloading while editing), use the *
 
 ## 🎬 Video Demo
 
- _Walkthrough coming soon._
-
-## 🎬 Video Demo
-
 [![Watch the demo](images/video-thumbnail.png)](https://www.youtube.com/watch?v=NNgexcGnMFs)
-
 
 ---
 
