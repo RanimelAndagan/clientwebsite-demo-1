@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☕ The North Cafe
+# The North Cafe Website (DEMO)
 
 ### A taste of the true north.
 
