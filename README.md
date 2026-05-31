@@ -130,7 +130,7 @@ That's it. For the best experience (and live reloading while editing), use the *
 
 **Built by Ranimel B. Andagan**
 
-Financial advisor by day, builder by night. I make things that teach, help, and look good doing it.
+Part builder, part finance nerd, full time entrepreneur!
 
 [🌐 Live Site](https://ranimelandagan.github.io/clientwebsite-demo-1/) &nbsp;·&nbsp; [💼 LinkedIn](#) &nbsp;·&nbsp; [📍 North Caloocan, PH]
 
