@@ -124,8 +124,9 @@ That's it. For the best experience (and live reloading while editing), use the *
 
 > _Walkthrough coming soon._
 
-<!-- Drop your demo video or GIF here, e.g.:
-[![Watch the demo](images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=NNgexcGnMFs)
+## 🎬 Video Demo
+
+[![Watch the demo](images/video-thumbnail.png)](https://www.youtube.com/watch?v=NNgexcGnMFs)
 -->
 
 ---
