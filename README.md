@@ -40,7 +40,7 @@ The whole thing is hand-coded with vanilla HTML, CSS, and JavaScript. No framewo
 | **Typography** | Fraunces (variable display serif), Archivo, Manrope |
 | **APIs / Browser** | IntersectionObserver, `document.fonts.ready`, `matchMedia` |
 | **Integrations** | GrabFood ordering, Google Maps embed |
-| **Hosting** | GitHub Pages |
+| **Hosting** | GitHub Pages & Netlify |
 
 ---
 
