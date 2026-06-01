@@ -56,7 +56,7 @@ The difference between this and my early work isn't that I learned more CSS. It'
 
 ---
 
-## 📲 Stuff I'd add later
+## 📲 Stuff I would add later
 
 - **A small CMS** so the cafe can update menu items and prices themselves without touching code.
 - **Optimized images** (WebP / AVIF with `srcset`) to cut load time, since the photos are the heaviest part of the page right now.
