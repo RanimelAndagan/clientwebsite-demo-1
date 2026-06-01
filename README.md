@@ -8,7 +8,7 @@
 
 <br>
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,html" /></a>
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
 <br>
 
