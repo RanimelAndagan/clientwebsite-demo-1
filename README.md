@@ -35,7 +35,6 @@ The whole thing is hand-coded with plain HTML, CSS, and JavaScript. No framework
 - **Cinematic hero intro** — the headline reveals line by line on load, timed to fire only once the fonts are ready so nothing flickers.
 - **Scroll-triggered reveals** — sections and cards fade and rise into view with staggered timing using IntersectionObserver, not laggy scroll listeners.
 - **Live menu filtering** — tap a category chip and the menu animates to filter pasta, sandwiches, sweets, or coffee.
-- **3D logo tilt** — the brand seal subtly tilts toward your cursor on desktop, and turns off automatically on touch devices.
 - **Frosted-glass navigation** — the nav turns into a blurred, translucent bar once you scroll, and collapses into a full-height mobile drawer.
 - **Fully responsive** — purpose-built layouts across five breakpoints, from ultrawide down to 360px phones.
 - **Accessibility baked in** — keyboard navigation, an Escape-to-close menu, focus states, and a `prefers-reduced-motion` fallback that turns off animation for people who need it.
@@ -46,7 +45,7 @@ The whole thing is hand-coded with plain HTML, CSS, and JavaScript. No framework
 
 ## 🤖 How I built it
 
-I'm a beginner. I used AI along the way to explain stuff I hadn't learned yet and to help me figure out how to approach things. But I wrote it, broke it, and fixed it myself, and I made sure I actually understood each piece before moving on. The AI was more like a tutor than autopilot. Building this is how I learned, and that was the whole point.
+I'm a beginner, so I used AI as a learning tool here, mostly to explain stuff I hadn't learned yet and to talk through how to approach the design and the code. But the decisions, the build, and all the debugging were mine. I made sure I understood every piece before moving on. Less autopilot, more tutor. Building this is how I actually learned, and that was the whole point.
 
 This isn't the first website I've made, and honestly, the earlier ones taught me everything that made this one work. My first few looked like what they were: tutorials stitched together. Generic fonts, flat colors, layouts that fell apart the second you resized the window. They worked, but they had no point of view. Looking back at them is what pushed me to actually learn design, not just code.
 
