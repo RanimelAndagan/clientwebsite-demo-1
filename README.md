@@ -63,7 +63,7 @@ The difference between this and my early work isn't that I learned more CSS. It'
 
 ## 💻 How to run it
 
-No build step, no dependencies. It's a static site:
+Static site:
 
 ```bash
 git clone https://github.com/ranimelandagan/clientwebsite-demo-1.git
